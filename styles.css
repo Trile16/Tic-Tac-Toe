@@ -1,0 +1,14 @@
+#board {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    background-color: white;
+  }
+  
+.cell {
+    color: white;
+    background-color: black;
+    margin: .2rem;
+}
